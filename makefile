@@ -1,5 +1,4 @@
 main: main.o
-	touch output.out
 	gcc -o main.out main.o
 
 main.o: main.c
